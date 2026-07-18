@@ -9,8 +9,8 @@ Design: [Flora on Figma](https://www.figma.com/design/2Tj16H7IO7dq1ViTvIh57V/Flo
 | Resource | URL |
 |----------|-----|
 | Frontend (GitHub Pages) | https://nikita-kravchenko.github.io/UMT-markup-practice-NikitaKravchenko/ |
-| Backend API (Render) | https://umt-markup-practice-nikita-kravchenko.onrender.com/api |
-| Swagger UI | https://umt-markup-practice-nikita-kravchenko.onrender.com/api-docs |
+| Backend API (Render) | https://flora-backend-zci8.onrender.com/api |
+| Swagger UI | https://flora-backend-zci8.onrender.com/api-docs |
 
 ## Project Structure
 
