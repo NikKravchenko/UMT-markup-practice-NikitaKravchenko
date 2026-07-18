@@ -1,0 +1,19 @@
+{
+  "name": "flora-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Flora flower shop — monorepo (frontend + backend)",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "server": "npm --prefix frontend run server",
+    "dev:backend": "npm --prefix backend run dev",
+    "seed": "npm --prefix backend run seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikita-kravchenko/UMT-markup-practice-NikitaKravchenko.git"
+  },
+  "license": "ISC"
+}
