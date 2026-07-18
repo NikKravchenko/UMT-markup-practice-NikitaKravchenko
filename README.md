@@ -8,7 +8,7 @@ Design: [Flora on Figma](https://www.figma.com/design/2Tj16H7IO7dq1ViTvIh57V/Flo
 
 | Resource | URL |
 |----------|-----|
-| Frontend (GitHub Pages) | https://nikita-kravchenko.github.io/UMT-markup-practice-NikitaKravchenko/ |
+| Frontend (GitHub Pages) | https://nikkravchenko.github.io/UMT-markup-practice-NikitaKravchenko/ |
 | Backend API (Render) | https://umt-markup-practice-nikita-kravchenko.onrender.com/api |
 | Swagger UI | https://umt-markup-practice-nikita-kravchenko.onrender.com/api-docs |
 
