@@ -1,4 +1,4 @@
-﻿*,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -893,7 +893,7 @@ img {
   }
 
   .carousel-controls .carousel-arrows {
-    display: none;
+    display: flex;
   }
 }
 
@@ -931,7 +931,7 @@ img {
   }
 
   .carousel-controls .carousel-arrows {
-    display: none;
+    display: flex;
   }
 }
 

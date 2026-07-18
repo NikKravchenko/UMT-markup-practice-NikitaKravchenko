@@ -67,20 +67,11 @@ function updateShowMore() {
     if (!showMoreButton) return;
 
     const allLoaded = lastLoadedPage >= totalPages;
-    const canCollapse = totalPages > 1 && catalogueList?.children.length > itemsPerPage;
 
     if (!allLoaded) {
         showMoreButton.hidden = false;
         showMoreButton.textContent = "Show More";
         showMoreButton.dataset.mode = "more";
-        if (statusEl) statusEl.textContent = "";
-        return;
-    }
-
-    if (canCollapse) {
-        showMoreButton.hidden = false;
-        showMoreButton.textContent = "Show Less";
-        showMoreButton.dataset.mode = "less";
     } else {
         showMoreButton.hidden = true;
     }
@@ -168,17 +159,7 @@ function resetAndLoad() {
     fetchPage(1, false);
 }
 
-function handleShowLess() {
-    lastLoadedPage = 0;
-    if (catalogueList) catalogueList.replaceChildren();
-    fetchPage(1, false);
-}
-
 function handleLoadMore() {
-    if (showMoreButton?.dataset.mode === "less") {
-        handleShowLess();
-        return;
-    }
     if (lastLoadedPage >= totalPages) return;
     fetchPage(lastLoadedPage + 1, true);
 }
